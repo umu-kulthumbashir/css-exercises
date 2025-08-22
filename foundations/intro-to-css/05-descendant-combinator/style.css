@@ -1,0 +1,14 @@
+.container .text{
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+}
+/* Example: Style <p class="text"> that are NOT inside .container
+   :not() excludes any element matching the selector inside it.
+   Here, it keeps all p.text but removes the ones inside .container.
+p.text:not(.container p.text) {
+    background-color: white;
+    color: black;
+}
+*/
